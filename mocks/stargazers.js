@@ -1,0 +1,42 @@
+export const mockStargazers = [
+  {
+    "login": "alekseiOdegovC",
+    "id": 57904449,
+    "node_id": "MDQ6VXNlcjU3OTA0NDQ5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/57904449?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alekseiOdegovC",
+    "html_url": "https://github.com/alekseiOdegovC",
+    "followers_url": "https://api.github.com/users/alekseiOdegovC/followers",
+    "following_url": "https://api.github.com/users/alekseiOdegovC/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alekseiOdegovC/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alekseiOdegovC/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alekseiOdegovC/subscriptions",
+    "organizations_url": "https://api.github.com/users/alekseiOdegovC/orgs",
+    "repos_url": "https://api.github.com/users/alekseiOdegovC/repos",
+    "events_url": "https://api.github.com/users/alekseiOdegovC/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alekseiOdegovC/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "prowlee",
+    "id": 35212179,
+    "node_id": "MDQ6VXNlcjM1MjEyMTc5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/35212179?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/prowlee",
+    "html_url": "https://github.com/prowlee",
+    "followers_url": "https://api.github.com/users/prowlee/followers",
+    "following_url": "https://api.github.com/users/prowlee/following{/other_user}",
+    "gists_url": "https://api.github.com/users/prowlee/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/prowlee/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/prowlee/subscriptions",
+    "organizations_url": "https://api.github.com/users/prowlee/orgs",
+    "repos_url": "https://api.github.com/users/prowlee/repos",
+    "events_url": "https://api.github.com/users/prowlee/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/prowlee/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+];

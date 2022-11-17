@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Header 1`] = `
+<Text
+  style={
+    {
+      "color": "white",
+      "fontSize": 22,
+      "fontWeight": "bold",
+      "textAlign": "center",
+    }
+  }
+>
+  Stargazers
+</Text>
+`;

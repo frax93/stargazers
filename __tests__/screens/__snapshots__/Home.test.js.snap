@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing home screen renders without errors 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#ecf0f1",
+      "flex": 1,
+      "padding": 8,
+    }
+  }
+>
+  <View>
+    <TextInput
+      nativeID="repository"
+      onChangeText={[Function]}
+      placeholder="Enter repository"
+      style={
+        {
+          "backgroundColor": "#fff",
+          "borderColor": "#ddd",
+          "borderWidth": 1,
+          "height": 50,
+          "paddingHorizontal": 8,
+          "width": "100%",
+        }
+      }
+      testID="repository"
+      value=""
+    />
+    <TextInput
+      nativeID="owner"
+      onChangeText={[Function]}
+      placeholder="Enter owner"
+      style={
+        {
+          "backgroundColor": "#fff",
+          "borderColor": "#ddd",
+          "borderWidth": 1,
+          "height": 50,
+          "paddingHorizontal": 8,
+          "width": "100%",
+        }
+      }
+      testID="owner"
+      value=""
+    />
+    <View
+      collapsable={false}
+      nativeID="submit"
+      style={
+        {
+          "backgroundColor": "black",
+          "borderColor": "transparent",
+          "borderRadius": 4,
+          "borderStyle": "solid",
+          "borderWidth": 0,
+          "elevation": 2,
+          "marginTop": 16,
+          "minWidth": 64,
+          "shadowColor": "#000000",
+          "shadowOffset": {
+            "height": 0.75,
+            "width": 0,
+          },
+          "shadowOpacity": 0.24,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "overflow": "hidden",
+            },
+            {
+              "borderRadius": 4,
+            },
+          ]
+        }
+        testID="submit"
+      >
+        <View
+          style={
+            [
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <Text
+            numberOfLines={1}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontWeight": "400",
+                },
+                {
+                  "textAlign": "left",
+                },
+                [
+                  {
+                    "letterSpacing": 1,
+                    "marginHorizontal": 16,
+                    "marginVertical": 9,
+                    "textAlign": "center",
+                  },
+                  undefined,
+                  {
+                    "textTransform": "uppercase",
+                  },
+                  {
+                    "color": "#ffffff",
+                    "fontFamily": "System",
+                    "fontWeight": "500",
+                  },
+                  {
+                    "fontFamily": "System",
+                    "fontWeight": "500",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Submit
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      collapsable={false}
+      nativeID="reset"
+      style={
+        {
+          "backgroundColor": "transparent",
+          "borderColor": "rgba(0, 0, 0, 0.29)",
+          "borderRadius": 4,
+          "borderStyle": "solid",
+          "borderWidth": 0.5,
+          "elevation": 0,
+          "marginTop": 16,
+          "minWidth": 64,
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "overflow": "hidden",
+            },
+            {
+              "borderRadius": 4,
+            },
+          ]
+        }
+        testID="reset"
+      >
+        <View
+          style={
+            [
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <Text
+            numberOfLines={1}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontWeight": "400",
+                },
+                {
+                  "textAlign": "left",
+                },
+                [
+                  {
+                    "letterSpacing": 1,
+                    "marginHorizontal": 16,
+                    "marginVertical": 9,
+                    "textAlign": "center",
+                  },
+                  undefined,
+                  {
+                    "textTransform": "uppercase",
+                  },
+                  {
+                    "color": "black",
+                    "fontFamily": "System",
+                    "fontWeight": "500",
+                  },
+                  {
+                    "fontFamily": "System",
+                    "fontWeight": "500",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Reset
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View />
+</View>
+`;
